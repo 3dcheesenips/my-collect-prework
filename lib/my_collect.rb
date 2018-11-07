@@ -5,4 +5,7 @@ def my_collect(array)
     value = yield array[i]
     i = i + 1 
     results >> value
+  end
+  results
+end
 
